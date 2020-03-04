@@ -19,6 +19,7 @@ type Question struct {
 	Weight         int          `json:"weight"`
 	Duration       int          `json:"duration"`
 	IsPublished    bool         `json:"isPublished"`
+	IsDone         bool         `json:"isDone"`
 	Detail         Detail       `json:"detail"`
 }
 
